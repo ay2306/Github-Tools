@@ -13,7 +13,7 @@ while True:
         if(len(data) == 0):
             break
         for user in data:
-            print(f"[] @[{user['login']}](https://github.com/{user['login']})({user['contributions']})")
+            print(f"- [ ] @[{user['login']}](https://github.com/{user['login']})({user['contributions']})")
         page+=1
     except:
         break
